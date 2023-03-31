@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>LoginForm</title>
+
+     <!-- font awesonme and bootstarp cdn link -->
+     <script src="https://kit.fontawesome.com/ad82d100a4.js" crossorigin="anonymous"></script>
+
+     <!-- custon css file link -->
+     <link rel="stylesheet" href="style.css" />
+</head> 
+<body>
+
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick = login()>Log In</button>
+                <button type="button" class="toggle-btn" onclick= Register()>Register</button>
+            </div>
+
+            
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"> <img src="facebookImage.png" > </a>
+                <a href="https://twitter.com/">  <img src="TiwitterImage.png"> </a>
+                <a href="https://google.com/">  <img src="GoogleImage.jpg" > </a>
+            </div>
+
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log In</button>              
+            </form>
+       
+            <form id="Register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="email Id" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>I agree to the term & conditions</span>
+                <button type="submit" class="submit-btn">Register</button>              
+            </form>
+
+        </div>
+    </div>
+
+    <!-- custon js file link -->
+
+    <script src="script.js"></script>
+</body>
+</html>
